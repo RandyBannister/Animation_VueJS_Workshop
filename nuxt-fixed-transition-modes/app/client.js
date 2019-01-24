@@ -8,6 +8,8 @@ const noopFetch = () => {}
 let _lastPaths = []
 let _lastComponentsFiles = []
 
+
+
 let app
 let router
 <%= (store ? 'let store' : '') %>
