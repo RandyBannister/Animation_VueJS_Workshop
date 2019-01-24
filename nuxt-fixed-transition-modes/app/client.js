@@ -429,5 +429,5 @@ createApp()
   })
 })
 .catch((err) => {
-  console.error('[nuxt.js] Cannot load components', err) // eslint-disable-line no-console
+  console.error('[nuxt.js] Cannot load components', err)
 })

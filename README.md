@@ -31,18 +31,6 @@ All slides have password `vue!`
 
 Included in this repo are some very basic starter kits.
 
-## Resources to find free SVG online
-
-SVG Resources:
-
-* [Icomoon](http://icomoon.io/)
-* [The Noun Project](https://thenounproject.com/)
-* [Freepik](http://www.freepik.com/)
-
-## GreenSock Resources
-
-[GreenSock Docs](http://greensock.com/docs/#/HTML5/), [Forums](http://greensock.com/forums/), and [Easing Visualizer](http://greensock.com/ease-visualizer).
-
 There are three directories you can use as GSAP starter kits:
 
 * basic-tween
