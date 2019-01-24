@@ -1,9 +1,8 @@
 'use strict'
 
-import Vue from 'vue'
-import middleware from './middleware'
 import { createApp, NuxtError } from './index'
-import { applyAsyncData, sanitizeComponent, getMatchedComponents, getMatchedComponentsInstances, flatMapComponents, getContext, middlewareSeries, promisify, getLocation, compile } from './utils'
+import Vue from 'vue'
+import middleware from './middleware'import { applyAsyncData, sanitizeComponent, getMatchedComponents, getMatchedComponentsInstances, flatMapComponents, getContext, middlewareSeries, promisify, getLocation, compile } from './utils'
 const noopData = () => { return {} }
 const noopFetch = () => {}
 let _lastPaths = []
@@ -19,6 +18,7 @@ function mapTransitions(Components, to, from) {
   function componentTransitions(component) {
     if (!component || !component.options || !component.options.transition) {
       return {}
+
     }
     if(typeof component.options.transition === 'function') {
       return component.options.transition(to, from)
